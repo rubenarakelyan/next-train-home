@@ -17,6 +17,3 @@ SOAP communication with OpenLDBWS uses [Savon](http://savonrb.com/).
 ## Data files
 
 * `data/station_codes.csv`: a CSV list of all National Rail stations and their three-letter CRS codes, obtained from the [National Rail Enquiries website](http://www.nationalrail.co.uk/stations_destinations/48541.aspx).
-
-*[SOAP]: Simple Object Access Protocol
-*[OpenLDBWS]: Open Live Departure Boards Web Service
