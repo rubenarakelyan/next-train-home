@@ -1,6 +1,6 @@
 {
   "name": "Next Train Home",
-  "description": "",
+  "description": "A simple web app to show your next train home.",
   "repository": "https://github.com/rubenarakelyan/next-train-home",
   "env": {
     "NRE_TOKEN": {
