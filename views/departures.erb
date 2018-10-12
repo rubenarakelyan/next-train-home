@@ -1,0 +1,16 @@
+<p>Next 5 departures from <strong><%= data[:from_location] %></strong> to <strong><%= data[:to_location] %></strong> within 30 minutes</p>
+
+<ul>
+  <% data[:departures].each do |departure| %>
+    <li>
+      <%= departure[:std] %>
+      <%= departure[:operator] %>
+      service
+      <% if departure[:platform] %>
+      from platform
+      <%= departure[:platform] %>
+      <% end %>
+      (<abbr title="Estimated time of departure">ETD</abbr>: <%= departure[:etd] %>)
+    </li>
+  <% end %>
+</ul>

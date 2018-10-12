@@ -1,0 +1,11 @@
+{
+  "name": "Next Train Home",
+  "description": "",
+  "repository": "https://github.com/rubenarakelyan/next-train-home",
+  "env": {
+    "NRE_TOKEN": {
+      "description": "A token used to authenticate with OpenLDBWS.",
+      "value": "REPLACE_ME"
+    }
+  }
+}
