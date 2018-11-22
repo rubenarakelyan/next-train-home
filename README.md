@@ -17,3 +17,7 @@ SOAP communication with OpenLDBWS uses [Savon](http://savonrb.com/).
 ## Data files
 
 * `data/station_codes.csv`: a CSV list of all National Rail stations and their three-letter CRS codes, obtained from the [National Rail Enquiries website](http://www.nationalrail.co.uk/stations_destinations/48541.aspx).
+
+## Debugging
+
+Use of an online [WSDL Browser](https://wsdlbrowser.com/) is recommended when debugging requests to and responses from the National Rail OpenLDBWS service.
